@@ -94,7 +94,7 @@ const FinanceChart = () => {
         <h1 className="font-semibold text-lg">Finance Report</h1>
         <Image src="/moreDark.png" alt="More" width={20} height={20} />
       </div>
-      <ResponsiveContainer width="100%" height="90%">
+      <ResponsiveContainer width="100%" height="92%">
         <LineChart
           width={500}
           height={300}
@@ -112,7 +112,7 @@ const FinanceChart = () => {
             axisLine={false}
             tickLine={false}
             tick={{ fill: "#d1d5db" }}
-            tickMargin={20}
+            tickMargin={8}
           />
           <YAxis axisLine={false} tickLine={false} tick={{ fill: "#d1d5db" }} />
           <Tooltip
