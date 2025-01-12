@@ -19,7 +19,7 @@ export default function RootLayout({
           <Menu/>
         </div>
         {/* RIGHT */}
-        <div className="w-[84%] md:w-[92%] lg:w-[84%] xl::w-[84%] bg-[#F7F8FA] overflow-scroll">
+        <div className="w-[84%] md:w-[92%] lg:w-[84%] xl::w-[84%] bg-[#F7F8FA] overflow-scroll flex flex-col">
           <NavBar/>
           {children}
         </div>
